@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-nav, .slider-wraper span.music, .footer-top, .footer-bottom, .post-author a.author-link, .single-post-comment .comment-text a , .uk-pagination > li.uk-active > a, .uk-pagination > li > a:hover, .uk-pagination > li > a:focus, .uk-pagination > li > a:active , .uk-button-primary , .uk-button-primary:hover, .uk-button-primary:focus , .uk-button-primary:active,
+.uk-button-primary.uk-active  {
+	background-color: #3a2c45;
+}
+.nav-parent .uk-dropdown-navbar, .main-content .uk-badge {
+	background: #3a2c45;
+}
+.main-menu .uk-navbar-toggle span, .main-menu .uk-navbar-toggle, .form-search button .uk-icon-search, span.slide-toggle, .latest-comment .uk-comment-meta, .single-post-wrapper .rating-area span i, .post-share a i, .single-post-wrapper p a, .post-author h3.uk-comment-title a, .author-media a , nav.catagory-nav ul li i{
+	color: #3a2c45;
+}
+.alltabs{
+	border-bottom:3px solid #3a2c45;
+}
+.catagory-b h3.article-title{
+	border-left:6px solid #3a2c45;
+}
+
+
+.main-menu .uk-navbar-nav > li > a:hover, .main-menu .uk-navbar-nav > li.uk-active > a, .nav-tabs > li > a:hover, .nav-tabs > li.uk-active > a, .nav-tabs > li.uk-active > a:hover, .nav-tabs > li.uk-active > a:focus, #tab-left-content h3 i, .main-content i.uk-icon-youtube-play  {
+	color: #f5556a;
+}
+.main-menu .uk-navbar-nav > li > a:hover, .main-menu .uk-navbar-nav > li.uk-active > a{
+	border-bottom:3px solid #f5556a;
+}
+ul.tabs li.flex-active{
+	border-left:4px solid #f5556a;
+}
+ul.recent-post-tab li.uk-active{
+	border-top:4px solid #f5556a;
+}
+.latest-video .flex-control-paging li a {
+	border:2px solid #f5556a;
+}
+.latest-video .flex-control-paging li a:hover, .latest-video .flex-control-paging li a.flex-active, .breaking-news .flex-control-paging li a:hover , .breaking-news .flex-control-paging li a.flex-active  { 
+	background: #f5556a;
+}
+.sidebar-newsletter button.uk-button, form.post-search button, .comment-form button.uk-button {
+	background-color:#f5556a;
+}
+.breaking-news .flex-control-paging li a {
+	border:2px solid #f5556a;
+}
+
+
+.main-nav-right{
+	background-color:#f5f2f8;
+}
+.site-content-right, h4.lead-title , .breaking-news .flex-control-nav {
+	background-color:#ebe5f0;
+}
+.footer-newsletter button.uk-button{
+	background-color:#f5556a;
+}
+.uk-tooltip {
+	background: #f5556a;
+}
+.uk-tooltip:after {
+	 border: 5px dashed #f5556a;
+}
+.footer-newsletter input{
+	background-color:#9d96a2;
+}

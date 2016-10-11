@@ -1,0 +1,1442 @@
+# Copyright (C) 2014 Theme Junkie
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AquaMag 1.0.1\n"
+"Report-Msgid-Bugs-To: http://www.theme-junkie.com/forum/\n"
+"POT-Creation-Date: 2014-08-18 14:58:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Satrya (satrya@theme-junkie.com)\n"
+"Language-Team: Theme Junkie (satrya@theme-junkie.com)\n"
+"X-Generator: grunt-wp-i18n 0.4.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:9
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:11
+msgid ""
+"Maybe the page was moved or deleted, or perhaps you just mistyped the "
+"address. Please, try to use the search form below."
+msgstr ""
+
+#: 404.php:13 404.php:14 search.php:11 search.php:12
+msgid "Search"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:90
+#: admin/includes/class-options-framework-admin.php:91
+msgid "Theme Options"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:197
+msgid "Save Options"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:198
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:198
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:229
+msgid "Default options restored."
+msgstr ""
+
+#: admin/includes/class-options-framework-admin.php:283
+msgid "Options saved."
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:66
+#: admin/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:68
+#: admin/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: admin/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: admin/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: admin/options-functions.php:60
+msgid "Follow Us!"
+msgstr ""
+
+#: admin/options-functions.php:81
+msgid "Useful Links"
+msgstr ""
+
+#: admin/options-functions.php:84
+msgid "Documentation"
+msgstr ""
+
+#: admin/options-functions.php:85
+msgid "Support Forum"
+msgstr ""
+
+#: admin/options-functions.php:86
+msgid "Affiliate Program"
+msgstr ""
+
+#: admin/options-functions.php:87
+msgid "Subscribe to Our Blog"
+msgstr ""
+
+#: admin/options.php:57
+msgid "General"
+msgstr ""
+
+#: admin/options.php:62
+msgid "Logo Uploader"
+msgstr ""
+
+#: admin/options.php:63
+msgid "Upload your custom logo, it will automatically replace the Site Title"
+msgstr ""
+
+#: admin/options.php:69
+msgid "Favicon Uploader"
+msgstr ""
+
+#: admin/options.php:70
+msgid "Upload your custom favicon."
+msgstr ""
+
+#: admin/options.php:76
+msgid "FeedBurner URL"
+msgstr ""
+
+#: admin/options.php:77
+msgid ""
+"Enter your full FeedBurner URL. If you wish to use FeedBurner over the "
+"standard WordPress feed."
+msgstr ""
+
+#: admin/options.php:84
+msgid "Boxed or Fullwidth"
+msgstr ""
+
+#: admin/options.php:85
+msgid "Site layouts."
+msgstr ""
+
+#: admin/options.php:90
+msgid "Boxed"
+msgstr ""
+
+#: admin/options.php:91
+msgid "Fullwidth"
+msgstr ""
+
+#: admin/options.php:96
+msgid "Posts List Layout"
+msgstr ""
+
+#: admin/options.php:97
+msgid "Layout of the posts list on archive and search page."
+msgstr ""
+
+#: admin/options.php:102
+msgid "List View"
+msgstr ""
+
+#: admin/options.php:103
+msgid "Grid View"
+msgstr ""
+
+#: admin/options.php:108
+msgid "Home Page"
+msgstr ""
+
+#: admin/options.php:113
+msgid "Display Featured Posts"
+msgstr ""
+
+#: admin/options.php:114
+msgid "Enable the Featured Posts area on home page and category page."
+msgstr ""
+
+#: admin/options.php:121
+msgid "Featured Posts Tag"
+msgstr ""
+
+#: admin/options.php:122
+msgid "Select a tag to be used as Featured Posts."
+msgstr ""
+
+#: admin/options.php:129
+msgid "First Category Posts Area"
+msgstr ""
+
+#: admin/options.php:130 admin/options.php:138 admin/options.php:146
+#: admin/options.php:154
+msgid "Select a category."
+msgstr ""
+
+#: admin/options.php:137
+msgid "Second Category Posts Area"
+msgstr ""
+
+#: admin/options.php:145
+msgid "Third Category Posts Area"
+msgstr ""
+
+#: admin/options.php:153
+msgid "Fourth Category Posts Area"
+msgstr ""
+
+#: admin/options.php:161
+msgid "Single Post"
+msgstr ""
+
+#: admin/options.php:166
+msgid "Display author info "
+msgstr ""
+
+#: admin/options.php:167
+msgid "Enable the author biographical info."
+msgstr ""
+
+#: admin/options.php:174
+msgid "Display share links"
+msgstr ""
+
+#: admin/options.php:175
+msgid "Enable the share links."
+msgstr ""
+
+#: admin/options.php:182
+msgid "Display related posts"
+msgstr ""
+
+#: admin/options.php:183
+msgid "Enable the related posts."
+msgstr ""
+
+#: admin/options.php:190
+msgid "Before Content Advertisement"
+msgstr ""
+
+#: admin/options.php:191
+msgid "Your ad will appear on single post before content."
+msgstr ""
+
+#: admin/options.php:197
+msgid "After Content Advertisement"
+msgstr ""
+
+#: admin/options.php:198
+msgid "Your ad will appear on single post after content."
+msgstr ""
+
+#: admin/options.php:204
+msgid "Social Links"
+msgstr ""
+
+#: admin/options.php:210
+msgid "The social links will appear at the top of your site."
+msgstr ""
+
+#: admin/options.php:215
+msgid "Enable "
+msgstr ""
+
+#: admin/options.php:216
+msgid "Enable social links"
+msgstr ""
+
+#: admin/options.php:223
+msgid "Facebook"
+msgstr ""
+
+#: admin/options.php:224
+msgid "Facebook profile url"
+msgstr ""
+
+#: admin/options.php:231
+msgid "Twitter"
+msgstr ""
+
+#: admin/options.php:232
+msgid "Twitter profile url"
+msgstr ""
+
+#: admin/options.php:239
+msgid "Google Plus"
+msgstr ""
+
+#: admin/options.php:240
+msgid "Google Plus profile url"
+msgstr ""
+
+#: admin/options.php:247
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/options.php:248
+msgid "LinkedIn profile url"
+msgstr ""
+
+#: admin/options.php:255
+msgid "Flickr"
+msgstr ""
+
+#: admin/options.php:256
+msgid "Flickr profile url"
+msgstr ""
+
+#: admin/options.php:263
+msgid "Dribbble"
+msgstr ""
+
+#: admin/options.php:264
+msgid "Dribbble profile url"
+msgstr ""
+
+#: admin/options.php:271
+msgid "Instgram"
+msgstr ""
+
+#: admin/options.php:272
+msgid "Instgram profile url"
+msgstr ""
+
+#: admin/options.php:279
+msgid "Youtube"
+msgstr ""
+
+#: admin/options.php:280
+msgid "Youtube profile url"
+msgstr ""
+
+#: admin/options.php:287
+msgid "Vimeo"
+msgstr ""
+
+#: admin/options.php:288
+msgid "Vimeo profile url"
+msgstr ""
+
+#: admin/options.php:295
+msgid "Contact"
+msgstr ""
+
+#: admin/options.php:300
+msgid "Latitude "
+msgstr ""
+
+#: admin/options.php:307
+msgid "Longitude "
+msgstr ""
+
+#: admin/options.php:315
+msgid "Alternate contact informations. It will appear below the map."
+msgstr ""
+
+#: admin/options.php:320 inc/classes/widget-popular.php:148
+#: inc/classes/widget-posts-slide.php:158 inc/classes/widget-random.php:123
+#: inc/classes/widget-recent.php:147 inc/classes/widget-views.php:156
+msgid "Title"
+msgstr ""
+
+#: admin/options.php:323
+msgid "Get in Touch"
+msgstr ""
+
+#: admin/options.php:328
+msgid "Description"
+msgstr ""
+
+#: admin/options.php:335
+msgid "Address"
+msgstr ""
+
+#: admin/options.php:342
+msgid "Phone"
+msgstr ""
+
+#: admin/options.php:349
+msgid "Email"
+msgstr ""
+
+#: admin/options.php:356
+msgid "Name"
+msgstr ""
+
+#: admin/options.php:363 inc/classes/widget-ads.php:84
+#: inc/classes/widget-ads125.php:103
+msgid "Advertisement"
+msgstr ""
+
+#: admin/options.php:368 admin/options.php:375 admin/options.php:382
+msgid "Home Page Advertisement"
+msgstr ""
+
+#: admin/options.php:369
+msgid ""
+"The ad will appear below the featured posts on home page. Recommended size "
+"728x90"
+msgstr ""
+
+#: admin/options.php:376
+msgid "The ad will appear below the second category posts. Recommended size 728x90"
+msgstr ""
+
+#: admin/options.php:383
+msgid "The ad will appear at the bottom. Recommended size 728x90"
+msgstr ""
+
+#: admin/options.php:389
+msgid "Custom Code"
+msgstr ""
+
+#: admin/options.php:394
+msgid "Header code"
+msgstr ""
+
+#: admin/options.php:395
+msgid ""
+"If you need to add custom scripts to your header (meta tag verification, "
+"google fonts url), you should enter them in the box. They will be added "
+"before &lt;/head&gt; tag"
+msgstr ""
+
+#: admin/options.php:401
+msgid "Footer code"
+msgstr ""
+
+#: admin/options.php:402
+msgid ""
+"If you need to add custom scripts to your footer (like google analytic "
+"script), you should enter them in the box. They will be added before "
+"&lt;/body&gt; tag"
+msgstr ""
+
+#: archive.php:32
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:35
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:38
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:41
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:44
+msgid "Asides"
+msgstr ""
+
+#: archive.php:47
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:50
+msgid "Images"
+msgstr ""
+
+#: archive.php:53
+msgid "Videos"
+msgstr ""
+
+#: archive.php:56
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:59
+msgid "Links"
+msgstr ""
+
+#: archive.php:62
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:65
+msgid "Audios"
+msgstr ""
+
+#: archive.php:68
+msgid "Chats"
+msgstr ""
+
+#: archive.php:71
+msgid "Archives"
+msgstr ""
+
+#: comments.php:26 comments.php:38
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:27 comments.php:39
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:28 comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "Add Comment"
+msgstr ""
+
+#: comments.php:59
+msgid "Comment"
+msgstr ""
+
+#: content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:10
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:13 content-single.php:35
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:19 content-single.php:61
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:12 content-single.php:50 content.php:13
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: content-single.php:16
+msgid "Category: %1$s"
+msgstr ""
+
+#: content-single.php:55
+msgid "Tags: %1$s"
+msgstr ""
+
+#: content.php:17
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: footer.php:35
+msgid "&copy; Copyright %1$s %2$s"
+msgstr ""
+
+#: footer.php:36
+msgid "Proudly designed by %s"
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:136
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:138
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions.php:148
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:150 functions.php:162 functions.php:174 functions.php:186
+msgid "The footer sidebar."
+msgstr ""
+
+#: functions.php:160
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:172
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer 4"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:198
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:200
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:201
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:202
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:203
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:204
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:206
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:207
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:212
+#: inc/classes/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:213
+#: inc/classes/class-tgm-plugin-activation.php:1638
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:214
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:544
+#: inc/classes/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1290
+#: inc/classes/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1312
+#: inc/classes/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1361
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1935
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2065
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2065
+#: inc/classes/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2065
+#: inc/classes/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2067
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2072
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2073
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2074
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2076
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/widget-ads.php:23 inc/classes/widget-ads125.php:23
+msgid "Easily to display any type of ad."
+msgstr ""
+
+#: inc/classes/widget-ads.php:29
+msgid "&raquo; Advertisement"
+msgstr ""
+
+#: inc/classes/widget-ads.php:93 inc/classes/widget-ads125.php:115
+#: inc/classes/widget-feedburner.php:107 inc/classes/widget-flickr.php:188
+#: inc/classes/widget-video.php:98
+msgid "Title:"
+msgstr ""
+
+#: inc/classes/widget-ads.php:100
+msgid "Ad Code:"
+msgstr ""
+
+#: inc/classes/widget-ads125.php:29
+msgid "&raquo; Advertisement 125x125"
+msgstr ""
+
+#: inc/classes/widget-ads125.php:122
+msgid "Ad Code 1:"
+msgstr ""
+
+#: inc/classes/widget-ads125.php:129
+msgid "Ad Code 2:"
+msgstr ""
+
+#: inc/classes/widget-ads125.php:136
+msgid "Ad Code 3:"
+msgstr ""
+
+#: inc/classes/widget-ads125.php:143
+msgid "Ad Code 4:"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:23
+msgid "FeedBurner email subscription."
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:29
+msgid "&raquo; Feedburner"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:56
+msgid "Enter your email"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:61
+msgid "Subscribe"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:97
+msgid "Get Updates"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:98
+msgid "Subscribe to our newsletter to receive breaking news by email."
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:114
+msgid "HTML or Text before form:"
+msgstr ""
+
+#: inc/classes/widget-feedburner.php:121
+msgid "Feedburner ID:"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:22
+msgid "Display photo galleries from your Flickr account."
+msgstr ""
+
+#: inc/classes/widget-flickr.php:28
+msgid "&raquo; Flickr Photostream"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:52
+msgid "Untitled Flickr photo"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:192
+msgid "Display"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:199
+msgid "User"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:200
+msgid "Set"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:201
+msgid "Favorite"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:202
+msgid "Group"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:203
+msgid "Community"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:205
+msgid "photos"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:208
+msgid "User or Group ID"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:210
+msgid "What is my ID ?"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:213
+msgid "Set ID"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:215
+msgid "Use number from the set url"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:218
+msgid "Tags (optional)"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:220
+msgid "Comma separated, no spaces"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:242
+msgid ""
+"<strong>No \"type\" parameter has been setup. Check your settings, or "
+"provide the parameter as an argument.</strong>"
+msgstr ""
+
+#: inc/classes/widget-flickr.php:253
+msgid "There was an error while connecting to Feed server, please, try again!"
+msgstr ""
+
+#: inc/classes/widget-popular.php:23
+msgid "Display popular posts by comments with thumbnails."
+msgstr ""
+
+#: inc/classes/widget-popular.php:29
+msgid "&raquo; Popular Posts Thumbnails"
+msgstr ""
+
+#: inc/classes/widget-popular.php:138
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/classes/widget-popular.php:155 inc/classes/widget-posts-slide.php:165
+#: inc/classes/widget-random.php:130 inc/classes/widget-recent.php:154
+#: inc/classes/widget-views.php:163
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/classes/widget-popular.php:163 inc/classes/widget-random.php:138
+#: inc/classes/widget-recent.php:162 inc/classes/widget-views.php:171
+msgid "Display post date?"
+msgstr ""
+
+#: inc/classes/widget-posts-slide.php:23
+msgid "Display slider of posts list."
+msgstr ""
+
+#: inc/classes/widget-posts-slide.php:29
+msgid "&raquo; Posts Slider"
+msgstr ""
+
+#: inc/classes/widget-posts-slide.php:148
+msgid "Breaking News"
+msgstr ""
+
+#: inc/classes/widget-posts-slide.php:171
+msgid "Limit to specific or multiple Category: "
+msgstr ""
+
+#: inc/classes/widget-posts-slide.php:173
+msgid "Categories"
+msgstr ""
+
+#: inc/classes/widget-random.php:23
+msgid "Display random posts with thumbnails."
+msgstr ""
+
+#: inc/classes/widget-random.php:29
+msgid "&raquo; Random Posts Thumbnails"
+msgstr ""
+
+#: inc/classes/widget-random.php:113
+msgid "Random Posts"
+msgstr ""
+
+#: inc/classes/widget-recent.php:23
+msgid "Display recent posts with thumbnails."
+msgstr ""
+
+#: inc/classes/widget-recent.php:29
+msgid "&raquo; Recent Posts Thumbnails"
+msgstr ""
+
+#: inc/classes/widget-recent.php:137
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:23
+msgid "Display popular posts, recent posts and tags in tabs."
+msgstr ""
+
+#: inc/classes/widget-tabs.php:29
+msgid "&raquo; Tabs"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:89 page-templates/home.php:19
+msgid "Popular"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:90 page-templates/home.php:18
+msgid "Latest"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:91
+msgid "Tags"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:99
+msgid "Popular posts title:"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:106
+msgid "Recent posts title:"
+msgstr ""
+
+#: inc/classes/widget-tabs.php:113
+msgid "Tags title:"
+msgstr ""
+
+#: inc/classes/widget-video.php:23
+msgid "Easily to display any type of video."
+msgstr ""
+
+#: inc/classes/widget-video.php:29
+msgid "&raquo; Video"
+msgstr ""
+
+#: inc/classes/widget-video.php:88
+msgid "Video"
+msgstr ""
+
+#: inc/classes/widget-video.php:105
+msgid "Video URL"
+msgstr ""
+
+#: inc/classes/widget-video.php:112
+msgid "Embed Code:"
+msgstr ""
+
+#: inc/classes/widget-views.php:23
+msgid "Display the most views posts with thumbnails."
+msgstr ""
+
+#: inc/classes/widget-views.php:29
+msgid "&raquo; Most Views Posts Thumbnails"
+msgstr ""
+
+#: inc/classes/widget-views.php:90
+msgid " Views"
+msgstr ""
+
+#: inc/classes/widget-views.php:145
+msgid "Most Views Posts"
+msgstr ""
+
+#: inc/classes/widget-views.php:178
+msgid "Display post view?"
+msgstr ""
+
+#: inc/extras.php:111
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:206
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/extras.php:245
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/extras.php:246
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/extras.php:247
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/extras.php:248
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/extras.php:249
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/extras.php:250
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/extras.php:251
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/extras.php:252
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/extras.php:253
+msgid "Blog Feed URL"
+msgstr ""
+
+#: inc/extras.php:289
+msgid "Name (required)"
+msgstr ""
+
+#: inc/extras.php:291
+msgid "Email (required)"
+msgstr ""
+
+#: inc/extras.php:293
+msgid "Website (optional)"
+msgstr ""
+
+#: inc/template-tags.php:334
+msgid "More from this Author"
+msgstr ""
+
+#: inc/template-tags.php:404
+msgid "Related Articles"
+msgstr ""
+
+#: inc/template-tags.php:461
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:461
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:480
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:484
+msgid "<i class=\"uk-icon-reply\"></i> Reply"
+msgstr ""
+
+#: inc/template-tags.php:517
+msgid "Share this:"
+msgstr ""
+
+#: inc/template-tags.php:696 inc/template-tags.php:818
+#: inc/template-tags.php:934
+msgid "All"
+msgstr ""
+
+#: index.php:21
+msgid "Latest Articles"
+msgstr ""
+
+#: loop-nav.php:4
+msgid "Previous Post: %link"
+msgstr ""
+
+#: loop-nav.php:5
+msgid "Next Post: %link"
+msgstr ""
+
+#: menu-secondary.php:13
+msgid "Category"
+msgstr ""
+
+#: page-templates/contact.php:46
+msgid "Address: %s"
+msgstr ""
+
+#: page-templates/contact.php:50
+msgid "Phone: %s"
+msgstr ""
+
+#: page-templates/contact.php:54
+msgid "Email: %s"
+msgstr ""
+
+#: page-templates/contact.php:58
+msgid "Name: %s"
+msgstr ""
+
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "AquaMag"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.theme-junkie.com/themes/aquamag"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A unique, modern and fully responsive magazine WordPress theme from <a "
+"href=\"http://www.theme-junkie.com/\">Theme Junkie</a>. AquaMag perfect for "
+"online magazines websites, news websites, personal blogs or community blogs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Theme Junkie"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.theme-junkie.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home template"
+msgstr ""
+
+#: archive.php:38
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:41
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: comments.php:19
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:210
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+#: loop-nav.php:12
+msgctxt "posts navigation"
+msgid "&laquo;"
+msgstr ""
+
+#: loop-nav.php:13
+msgctxt "posts navigation"
+msgid "&raquo;"
+msgstr ""

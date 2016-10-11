@@ -1,0 +1,11 @@
+1.0.3 - 8/26/2014
+* inc/template-tags.php - Fixed related posts cache issue, causing the same related posts on all posts.
+
+1.0.2 - 8/20/2014
+* inc/scripts.php - Fix child theme stylesheet not loaded
+
+1.0.1 - 8/18/2014
+* Fix the posts slider widget
+
+1.0.0 - 8/13/2014
+* Initial release

@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Documentation for AquaMag theme</title>
+<meta name="robots" content="noindex, nofollow">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	body{width:750px;font:16px/25px 'Lato',sans-serif;margin:36px auto 60px;}a:link,a:visited{color:#00E;text-decoration:none;}a:hover,a:active{text-decoration:underline;}h1,h2,h3,h4,h5,h6{color:#222;font-weight:400;font-family:Oswald, sans-serif;margin:40px 0 30px;}h1{font-size:2.2em;}code{background:#eee;padding:0 3px;}pre code{padding:0;}pre{background:#eee;border:1px solid #ccc;padding:9px;}ul{list-style:square;margin-bottom:40px;}p.first{font-size:21px;}p.second{font-size:15px;}ul.space li{margin-bottom:10px;}.section{overflow:hidden;}.columns-2{float:left;width:350px;margin:0 0 21px 25px;}.columns-3{float:left;width:230px;margin:0 0 21px 20px;}.title{text-align:center;border-bottom:1px solid #f0f0f0;padding-bottom:20px;}.sub-title{color:#999;font-size:18px;}hr{background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:1px;border:none;margin:0 0 1.45em;}.callout{background-color:#fafcfc;border-bottom:1px solid #ddd;border-top:1px solid #ddd;font-size:13px;overflow:hidden;padding:20px;}.callout .content{border-right:1px solid #ddd;display:inline;float:left;height:125px;width:29%;padding:0 20px;}.callout .content:first-child{padding-left:10px;}.callout .content:last-child{border-right:0;padding-right:0;}.callout .content span{display:inline-block;font-weight:700;width:100px;}#toc{font-size:16px;margin-bottom:10px;}.toc .heading{font-size:16px;}.no-list-space{margin:0 0 40px 20px;padding:0;}ol,.toc-content p:last-child{margin-bottom:40px;}img{border: 1px solid #eee;}.img-wrap {background: #f5f5f5;margin-bottom: 25px;padding: 20px 10px;text-align: center;border: 1px solid #eee;box-shadow: inset 1px 1px 0 #fff;}
+</style>
+
+</head>
+<body>
+
+<h1 class="title">AquaMag Documentation</h1>
+
+<p class="sub-title">AquaMag is a unique, modern and fully responsive magazine WordPress theme from <a href="http://www.theme-junkie.com/">Theme Junkie</a>. AquaMag perfect for online magazines websites, news websites, personal blogs or community blogs.</p>
+
+<div class="callout">
+	<div class="content">
+		<span>Latest Version:</span> 1.0.3<br>
+		<span>Released:</span> Aug 13, 2014<br>
+		<span>Last Updated:</span> Aug 26, 2014<br>
+		<span>Requires:</span> WordPress 3.6+<br>
+		<span>License:</span> GPL v2<br>
+	</div>
+	<div class="content">
+		<span>Support:</span> <a href="http://www.theme-junkie.com/forum/" target="_blank">Forum Support</a><br>
+		<span>Changelog:</span> <a href="http://demo.theme-junkie.com/aquamag/wp-content/themes/aquamag/readme/changelog.txt" target="_blank">changelog.txt</a><br>
+	</div>
+	<div class="content">
+		<span>Developer:</span> <a href="http://www.theme-junkie.com/" target="_blank">Theme Junkie</a><br>
+		<span>Twitter:</span> <a href="https://twitter.com/theme_junkie" target="_blank">@theme_junkie</a><br>
+		<span>Facebook:</span> <a href="https://www.facebook.com/themejunkies" target="_blank">@themejunkies</a><br>
+	</div>
+</div>
+
+<h3 id="toc">Table Of Content</h3>
+<div class="toc">
+
+	<div class="content">
+		<ol class="no-list-space">
+			<li><a href="#features">Features</a></li>
+			<li><a href="#child">Child Theme</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#plugins">Recommended Plugins</a></li>
+			<li><a href="#custom-background">Custom Background</a></li>
+			<li><a href="#custom-menu">Custom Menu</a></li>
+			<li><a href="#category-menu">Category Menu</a></li>
+			<li><a href="#custom-widget">Custom Widgets</a></li>
+			<li><a href="#logo">Logo Uploader</a></li>
+			<li><a href="#favicon">Favicon Uploader</a></li>
+			<li><a href="#feed">Change Default Feed URL with Feedburner</a></li>
+			<li><a href="#home">Create Home Page</a></li>
+			<li><a href="#homesetting">Setting Home Page</a></li>
+		</ol>
+	</div>
+
+</div>
+
+<hr>
+
+<div id="features" class="toc-content">
+	<h2>Features</h2>
+
+	<p>Some of AquaMag cool features!</p>
+
+	<ul>
+		<li>Responsive Design.</li>
+		<li>bbPress Support!</li>
+		<li>Custom fullwidth and contact page template.</li>
+		<li>Built-in paginations for your home, archive, and search pages.</li>
+		<li>Tons of options to customize the theme.</li>
+		<li>Ability to customize the background color.</li>
+		<li>10 Custom Widgets.</li>
+		<li>Support 2 Menu Areas.</li>
+		<li>Support 5 Widget Areas.</li>
+		<li>Fully internationalized, so you can run the theme in any language.</li>
+	</ul>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div><!-- #features -->
+
+<hr>
+
+<div id="child" class="toc-content">
+	<h2>Child theme</h2>
+
+	<p>Since <em>AquaMag</em> is a parent theme, you'll want to create a child theme if you plan on making any customizations.  <em>Don't know how to make a child theme?</em>  It's relatively simple.  Just follow the below steps.</p>
+
+	<ul>
+		<li>Create a theme folder in your <code>/wp-content/themes</code> directory called <code>aquamag-child</code>.</li>
+		<li>Then, create a <code>style.css</code> file within your theme folder.</li>
+		<li>At the top of your <code>style.css</code> file, add the below information.</li>
+	</ul>
+
+<pre><code>/**
+ * Theme Name: AquaMag Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: Describe what your theme should be like.
+ * Version: 0.1
+ * Author: Your Name
+ * Author URI: http://link-to-your-site.com
+ * Tags: Add, Whatever, Tags, You, Want
+ * Template: aquamag
+ */
+
+/* Importing the parent theme stylesheet. */
+@import url( '../aquamag/style.css' );</code></pre>
+
+	<p>From that point, you simply need to start adding your own styles.  The parent theme styles will automatically be loaded for you.</p>
+	<strong>Reference</strong>
+	<ul>
+		<li><a href="http://codex.wordpress.org/Child_Themes" target="_blank">Codex</a></li>
+		<li><a href="http://www.theme-junkie.com/wp-content/uploads/2014/08/aquamag-child1.zip">Download AquaMag child theme</a></li>
+	</ul>
+	<a href="#toc" class="back-to-top">top</a>
+</div><!-- #child -->
+
+<hr>
+
+<div id="installation" class="toc-content">
+	<h2>Installation</h2>
+	<img src="http://www.theme-junkie.com/wp-content/uploads/2014/05/installation.png" alt="Installation" />
+	<p><strong>Through Dashboard</strong></p>
+
+	<ol>
+		<li>Log into your WordPress admin panel and go to <strong>Appearance &raquo; Themes</strong></li>
+		<li>Click the <strong>Add New</strong> button at the top.</li>
+		<li>Click the <strong>Upload Theme</strong> button at the top.</li>
+		<li>Click the <strong>Choose File</strong> button and navigate to the location of the theme zip file.</li>
+		<li>Click Install Now to begin the installation.</li>
+		<li>Wait for the success message, then click <strong>Activate</strong>.</li>
+	</ol>
+
+	<p><strong>Installing Via FTP</strong></p>
+	
+	<ol>
+		<li>Unzip the theme zip file.</li>
+		<li>Using an <a href="https://codex.wordpress.org/FTP_Clients" target="_blank">FTP client</a> to access your host web server. Go to <code>/wp-content/themes/</code> and place the theme folder inside it.</li>
+		<li>Log in to your WordPress admin panel and go to <strong>Appearance &raquo; Themes</strong></li>
+		<li>Locate the theme thumbnail and click the Activate link.</li>
+	</ol>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="plugins" class="toc-content">
+	<h2>Recommended Plugins</h2>
+	<img src="http://www.theme-junkie.com/wp-content/uploads/2014/06/plugins.png" alt="Plugins">
+	<p>When the first time you activated the theme, you will see the notice about recommended plugins for it like the picture above. If you feel the plugins is not needed, then you can click the Dismiss this notice to hide the notice.</p>
+
+	<p>If someday you need to install those plugins, you can go to <strong>Appearance &raquo; Install Plugins</strong>. Choose which plugin you want to install. Please note, the plugins is <strong>Recommended</strong> not required.</p>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="custom-background" class="toc-content">
+	<h2>Custom Background</h2>
+	<img src="http://www.theme-junkie.com/wp-content/uploads/2014/05/custom-background.png" alt="Custom Background" />
+	<p>AquaMag has feature to change the default background using the native WordPress custom background function. To use it, please follow the steps below:</p>
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Background</strong>.</li>
+		<li>You can either set the image or color as background.</li>
+		<li>Click the <strong>Save Changes</strong> button when you finish.</li>
+	</ol>
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="custom-menu" class="toc-content">
+	<h2>Custom Menu</h2>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/custom-menus.png" alt="Custom Menu" />
+	<p>AquaMag supports the custom menu function to allow you to setup your menus. You can set it through following steps.</p>
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Menus</strong>.</li>
+		<li>To create a new custom menu, click the <strong>create a new menu</strong> link, give the menu a name, and click Save Menu button.</li>
+		<li>You can add pages, categories or custom link's to the menu.</li>
+		<li>And, be sure to select Primary Menu or Secondary Menu for the <strong>Theme Location</strong> before saving your menu.</li>
+		<li>When you are done, click <strong>Save Menu</strong></li>
+	</ol>
+	<p>Please go to <a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">Codex Help</a> for more detailed instruction.</p>
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="category-menu" class="toc-content">
+
+	<h2>Category Menu</h2>
+	
+	<p>To build multi-level menu, you need to position the 'child' underneath its 'parent' and then drag it slightly to the right.</p>
+
+	<h4 style="margin-bottom: 10px;">Back-end Settings</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/category-menu.png" alt="">
+
+	<h4 style="margin-bottom: 10px;">Front-end Appearance</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/category-menu-frontend.png" alt="">
+	
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="custom-widget" class="toc-content">
+	<h2>10 Custom Widgets</h2>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/custom-widgets.png" alt="Custom Widgets" />
+	<p>AquaMag comes with 10 cool custom widgets to give you more flexibility to customize your site. </p>
+	<ol>
+		<li><strong>Advertisement</strong> - Easily to show your ad, adsense, amazon, etc.</li>
+		<li><strong>Advertisement 125x125</strong> - Easily to show your ad, adsense, amazon, etc.</li>
+		<li><strong>Feedburner</strong> - Allow your reader to subscribe your posts through feedburner service.</li>
+		<li><strong>Flickr Photostream</strong> - Display photo galleries from your Flickr account.</li>
+		<li><strong>Most Views Posts Thumbnail</strong> - Display most views posts along with thumbnail.</li>
+		<li><strong>Popular Posts Thumbnail</strong> - Display popular posts by comments along with thumbnail.</li>
+		<li><strong>Random Posts Thumbnail</strong> - Display random posts along with thumbnail.</li>
+		<li><strong>Recent Posts Thumbnail</strong> - Display latest posts along with thumbnail.</li>
+		<li><strong>Posts Slider</strong> - Display a list of posts with custom slider.</li>
+		<li><strong>Video</strong> - Easily to display your video from some popular video website such as youtube, video, etc.</li>
+	</ol>
+	
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="logo" class="toc-content">
+	<h2>Upload Your Custom Logo</h2>
+
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/logo1.png" alt="Custom Logo" />
+
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Theme Settings</strong>.</li>
+		<li>Open the <em>General</em> tab.</li>
+		<li>Look at <strong>Logo Uploader</strong> section.</li>
+		<li>Click the Upload button, then pick the logo from your hardisk.</li>
+	</ol>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="favicon" class="toc-content">
+	<h2>Upload Your Custom Favicon</h2>
+
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/favicon1.png" alt="Custom Logo" />
+
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Theme Settings</strong>.</li>
+		<li>Open the <em>General</em> tab.</li>
+		<li>Look at <strong>Favicon Uploader</strong> section.</li>
+		<li>Click the Upload button, then pick the favicon from your hardisk.</li>
+	</ol>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="feed" class="toc-content">
+	<h2>Change Default Feed URL with Feedburner</h2>
+
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/feedburner.png" alt="Custom Feed" />
+
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Theme Settings</strong>.</li>
+		<li>Open the <em>General</em> tab.</li>
+		<li>Look at <strong>FeedBurner URL</strong> section.</li>
+		<li>Put your feedburner URL in the box.</li>
+	</ol>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="home" class="toc-content">
+	<h2>Create Home Page</h2>
+
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/aquamag-homepage.png" alt="">
+
+	<ol>
+		<li>Go to <strong>Pages &raquo; Add New</strong>.</li>
+		<li>Fill in the Title.</li>
+		<li>Switch the 'Template' in the <strong>Page Attributes</strong> widget. Change it to the <strong>Home template</strong></li>
+		<li>Then, go to <strong>Settings &raquo; Reading</strong>.</li>
+		<li>See the <strong>Front page displays</strong> option, check the <strong>A static page (select below)</strong> then in the <strong>front-page</strong> drop-down choose the page you already created before.</li>
+	</ol>
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<div id="homesetting" class="toc-content">
+	<h2>Setting Home Page</h2>
+
+	<ol>
+		<li>Go to <strong>Appearance &raquo; Theme Settings</strong>.</li>
+		<li>Open the <em>Home Page</em> tab.</li>
+		<li>Please take a look images below to see the setting area.</li>
+	</ol>
+	
+	<h4 style="margin-bottom: 10px;">Featured Posts</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/featured1.png" alt="">
+
+	<h4 style="margin-bottom: 10px;">First Category Posts Area</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/first-category.png" alt="">
+
+	<h4 style="margin-bottom: 10px;">Second Category Posts Area</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/second-category.png" alt="">
+
+	<h4 style="margin-bottom: 10px;">Third Category Posts Area</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/third-category.png" alt="">
+
+	<h4 style="margin-bottom: 10px;">Fourth Category Posts Area</h4>
+	<img src="http://demo.theme-junkie.com/aquamag/files/2014/08/fourth-category.png" alt="">
+
+	<a href="#toc" class="back-to-top">top</a>
+</div>
+
+<hr>
+
+<a href="#toc">Go To Table of Contents</a>
+
+</body>
+</html>
