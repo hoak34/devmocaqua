@@ -72,8 +72,17 @@ body .main-menu .uk-navbar-nav > li.uk-parent .uk-dropdown-navbar {
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.18);
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.18);
     border: none;
+    display: block;
 }
 body .main-menu .uk-navbar-nav > li:hover .uk-dropdown-navbar {
     visibility: visible;
-    display: block;
+}
+body .main-menu .uk-navbar-nav > li .uk-dropdown-navbar ul li {
+    -webkit-transition: padding 0.3s linear 0s;
+    transition: padding 0.3s linear 0s;
+    padding: 0;
+    margin: 0;
+}
+body .main-menu .uk-navbar-nav > li:hover .uk-dropdown-navbar ul li {
+    padding: 10px 0;
 }
