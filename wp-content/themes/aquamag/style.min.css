@@ -35,7 +35,7 @@ body .main-menu .uk-navbar-nav {
 body .main-menu .uk-navbar-nav > li {
     margin: 0 30px 0 0;
     position: relative;
-    padding: 10px 0;
+    padding: 0;
 }
 body .main-menu .uk-navbar-nav > li > a {
     position: relative;
@@ -52,7 +52,7 @@ body .main-menu .uk-navbar-nav > li > a:hover, body .main-menu .uk-navbar-nav > 
     border: none;
 }
 body .main-menu .uk-navbar-nav > li > a:after {
-    bottom: 10px;
+    bottom: 0;
     content: "";
     height: 2px;
     left: 0;
