@@ -1044,6 +1044,7 @@ h6 {
     box-shadow: none;
 
     zoom: 1;
+    overflow: hidden;
 
 }
 
