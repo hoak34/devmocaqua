@@ -6227,4 +6227,88 @@ textarea {
     width: 100%;
 
 }
-
+body .main-menu .uk-navbar-nav {
+    float: right;
+    margin: 0;
+}
+body .main-menu .uk-navbar-nav > li {
+    margin: 0 30px 0 0;
+    position: relative;
+    padding: 0;
+}
+body .main-menu .uk-navbar-nav > li > a {
+    position: relative;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 132px;
+    line-height: 132px;
+}
+body .main-menu .uk-navbar-nav > li:hover > a {
+    color: #f16349;
+}
+body .main-menu .uk-navbar-nav > li > a:hover, body .main-menu .uk-navbar-nav > li.uk-active > a {
+    border: none;
+}
+body .main-menu .uk-navbar-nav > li > a:after {
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    width: 0;
+    background: #f16349;
+}
+body .main-menu .uk-navbar-nav > li:hover > a:after,
+body .main-menu .uk-navbar-nav > li.uk-active > a:after {
+    width: 100%;
+}
+body .main-menu .uk-navbar-nav > li.uk-parent .uk-dropdown-navbar {
+    -webkit-animation: none;
+    animation: none;
+    left: 0;
+    /*position: absolute !important;*/
+    /*top: 110px !important;*/
+    visibility: hidden;
+    z-index: 99;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.18);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.18);
+    border: none;
+    display: block;
+}
+body .main-menu .uk-navbar-nav > li:hover .uk-dropdown-navbar {
+    visibility: visible;
+}
+body .main-menu .uk-navbar-nav > li .uk-dropdown-navbar ul li {
+    -webkit-transition: padding 0.3s linear 0s;
+    transition: padding 0.3s linear 0s;
+    padding: 0;
+    margin: 0;
+}
+body .main-menu .uk-navbar-nav > li:hover .uk-dropdown-navbar ul li {
+    padding: 10px 0;
+}
+body .form-search {
+    margin: 40px 25px 0 0;
+}
+body .form-search .navbar-form {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+    position: relative;
+    background: #d6e5ed;
+}
+body .form-search .navbar-form input {
+    height: 40px;
+    line-height: 40px;
+    border: 1px #ffffff solid;
+    width: 100%;
+    padding: 0 15px;
+    color: #ffffff;
+}
+body .form-search .navbar-form button {
+    position: absolute;
+    right: 15px;
+}
