@@ -924,11 +924,6 @@ h6 {
     }
 }
 @media (min-width: 768px) {
-    .main-nav-left .main-menu {
-        margin-top: 52px;
-    }
-}
-@media (min-width: 768px) {
 
     .uk-dropdown:not(.uk-dropdown-stack) > .uk-grid > [class*='uk-width-']:nth-child(n+2) {
 
