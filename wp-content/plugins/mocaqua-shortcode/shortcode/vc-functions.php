@@ -96,6 +96,12 @@ function mocaqua_register_vc_shortcodes() {
 					'param_name' => 'categories',
 					'value' => $categories,
 				),
+				array(
+					'type' => 'textfield',
+					'heading' => __( 'Title', 'mocaqua-shortcode' ),
+					'param_name' => 'title',
+					'value' => 'All categories',
+				),
 			)
 		) );
 	}

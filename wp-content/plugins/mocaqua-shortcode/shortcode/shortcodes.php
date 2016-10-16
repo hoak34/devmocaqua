@@ -309,42 +309,48 @@ class mocaqua_shortcodes_fe extends mocaqua_shortcodes {
 		$atts = function_exists( 'vc_map_get_attributes' ) ? vc_map_get_attributes( 'mocaqua_category_lists', $atts ) : $atts;
 		extract( shortcode_atts(
 			array(
+				'title'=>'',
 				'categories'=>'',
 			), $atts ));
 
 		$html = '';
 		if($categories){
-			//ob_start();
+			ob_start();
 			$categories = explode(',', $categories);
 			echo '<div class="recent-post border-style uk-clearfix">';
+			if($title){
+				echo '<h4 class="post-title">'.$title.'</h4>';
+			}
+			echo '<div class="uk-grid">';
 			foreach ($categories as $category){
 				$category = get_category($category);
 				$image = get_field('image', $category);
-				var_dump($image);exit;
+				$url = get_category_link($category->term_id);
+				if(isset($image['sizes']['aquamag-thumb'])){
+					$image_url = $image['sizes']['aquamag-thumb'];
+				}
+				else{
+					$image_url = plugins_url('mocaqua-shortcode/assets/images/thumbnail-default.jpg');
+				}
 				?>
-					<!--<ul class="uk-subnav uk-subnav-pill recent-post-tab uk-clearfix" data-uk-switcher="{connect:'#latest-post-content-<?php /*echo $rand; */?>'}">
-
-						<li class="uk-active"><a href="#"><?php /*_e( 'Latest', 'aquamag' ); */?></a></li>
-
-						<li class=""><a href="#"><?php /*_e( 'Popular', 'aquamag' ); */?></a></li>
-
-					</ul>
-
-					<div id="latest-post-content-<?php /*echo $rand; */?>" class="uk-switcher">
-
-						<div class="uk-active uk-grid uk-clearfix"><?php /*aquamag_latest_posts_home(); */?></div>
-
-						<div class="uk-grid uk-clearfix"><?php /*aquamag_popular_posts_home(); */?></div>
-
-					</div>
--->
-				<!-- .recent-post -->
+				<div class="uk-width-1-1 uk-width-medium-1-3">
+					<article class="one-third uk-clearfix">
+						<div class="article-img">
+							<a class="uk-overlay" href="<?php the_permalink(); ?>">
+								<img src="<?php echo $image_url; ?>" alt="" class="entry-thumbnail">
+							</a>
+						</div>
+						<div class="article-text">
+							<h3 class="article-title"><a href="<?php echo $url; ?>" rel="bookmark"><?php echo $category->name; ?></a></h3>
+						</div>
+					</article>
+				</div>
 				<?php
-
 			}
 			echo '</div>';
-			//$html = ob_get_contents();
-			//ob_clean();
+			echo '</div>';
+			$html = ob_get_contents();
+			ob_clean();
 		}
 		return $html;
 	}
