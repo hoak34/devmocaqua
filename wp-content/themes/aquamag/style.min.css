@@ -910,9 +910,23 @@ h6 {
 
 
 
+@media (max-width: 980px) {
+    .site-main.main-content .main-slider {
+        width: 100%;
+        float: none;
+    }
+    .site-main.main-content .thumb-slider {
+        display: none;
+        float: none;
+    }
+}
 @media (max-width: 767px) {
     .main-nav-left .main-menu {
         margin-top: 52px;
+    }
+    .home .recent-post > div.uk-grid > div {
+        width: 50%;
+        margin-top: 10px;
     }
 }
 @media (max-width: 479px) {
@@ -921,6 +935,8 @@ h6 {
     }
     .main-nav-left .main-menu {
         margin-top: 15px;
+        width: 120px;
+        float: right;
     }
 }
 @media (min-width: 768px) {
