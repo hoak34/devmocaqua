@@ -938,6 +938,12 @@ h6 {
         width: 120px;
         float: right;
     }
+    .main-content article .single-post-wrapper table p {
+        font-size: 12px;
+    }
+    .main-content article .single-post-wrapper table td {
+        padding: 2px !important;
+    }
 }
 @media (min-width: 768px) {
 
@@ -5615,6 +5621,7 @@ object {
 .wp-caption img {
 
     margin-bottom: 5px;
+    width: 100%;
 
 }
 
@@ -5902,6 +5909,9 @@ object {
 
     clear: both;
 
+}
+.wp-caption.aligncenter {
+    width: 100% !important;
 }
 
 
